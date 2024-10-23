@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_wordoccurrences> a <http://www.purl.org/cuneiform#WordFormOccurrenceCollection>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Wordform occurrences of cuneiform tablet HT 07-31-95"@en ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    rdfs:member <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line1_word1>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line1_word2>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line1_word3>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line1_word4>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line1_word5>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line2_word1>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line2_word2>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line2_word3>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line2_word4>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line3_word1>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line3_word2>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line3_word4>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line4_word1>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line4_word2>,
+        <https://situx.github.io/cuneiformontology/examples/ht073195/HT073195_obverse_line4_word3> .
+
