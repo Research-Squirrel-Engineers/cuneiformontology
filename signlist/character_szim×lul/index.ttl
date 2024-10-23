@@ -1,0 +1,23 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_szim×lul> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ŠIM×LUL" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_szim×lul_reading_szaqa2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szim×lul_reading_szaqu2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szim×lul_reading_szim×lul>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szim×lul_reading_szuquₓ> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_lul>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szim> ;
+    ns1:meszl "369" ;
+    ns1:signName "ŠIM×LUL" ;
+    ns1:slha "219" ;
+    ns1:unicodeCodepoint "U+122CF" ;
+    ns1:unicodeRepresentation "𒋏" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556415> .
+

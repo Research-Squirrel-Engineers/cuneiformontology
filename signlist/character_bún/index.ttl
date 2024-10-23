@@ -1,0 +1,29 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_bún> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: BÚN (KA×IM)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "322" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_ba5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_bu13>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_buhₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_bul4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_bun2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bún_reading_ka×im> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_bu2n_ka>,
+        <https://situx.github.io/cuneiformontology/signlist/character_im> ;
+    ns1:hethzl "144" ;
+    ns1:labat "30" ;
+    ns1:meszl "54" ;
+    ns1:obo "322" ;
+    ns1:signName "BÚN (KA×IM)" ;
+    ns1:slha "030" ;
+    ns1:unicodeCodepoint "U+1216E" ;
+    ns1:unicodeRepresentation "𒅮" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555719> .
+

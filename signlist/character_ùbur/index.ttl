@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_ùbur> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ÙBUR (DAG.KISIM5×IR)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_ùbur_reading_dag_kisim5×ir>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ùbur_reading_ubur3> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ir>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kisim5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_u3bur_dag> ;
+    ns1:meszl "450" ;
+    ns1:signName "ÙBUR (DAG.KISIM5×IR)" ;
+    ns1:slha "288b" ;
+    ns1:unicodeCodepoint "U+12061" ;
+    ns1:unicodeRepresentation "𒁡" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555194> .
+

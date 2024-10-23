@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: LUGAL szeszig" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_ad7_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_dim3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_dimₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_erina3?_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_irinax_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_lu2@s>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig_reading_lugal@s> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_lugal_szeszig> ;
+    ns1:labat "150" ;
+    ns1:obo "254" ;
+    ns1:signName "LUGAL šešig" ;
+    ns1:unicodeCodepoint "U+1221A" ;
+    ns1:unicodeRepresentation "𒈚" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556078> .
+

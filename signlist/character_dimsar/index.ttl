@@ -1,0 +1,21 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_dimsar> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: DIMSAR" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "233" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_dimsar_reading_dimsar>,
+        <https://situx.github.io/cuneiformontology/signlist/character_dimsar_reading_igi&igi_szir&szir_ud&ud> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_dimsar> ;
+    ns1:hethzl "288" ;
+    ns1:signName "DIMSAR" ;
+    ns1:slha "449_46" ;
+    ns1:unicodeCodepoint "U+12149" ;
+    ns1:unicodeRepresentation "𒅉" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555648> .
+

@@ -1,0 +1,650 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/Research-Squirrel-Engineers/cuneiformontology> a adms:AssetRepository ;
+    rdfs:label "Repository for cunei_dataset"@en ;
+    dcat:accessURL "https://github.com/Research-Squirrel-Engineers/cuneiformontology"^^xsd:anyURI ;
+    dcat:dataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/adms_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/brick_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/csvw_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_file:___C:_Users_timohomburg_git_cuneiformontology_signlist_> a void:Linkset ;
+    rdfs:label "Linkset: cunei_dataset - signlist"@en ;
+    void:linkPredicate <http://www.purl.org/graphemon#epoch> ;
+    void:objectsTarget <file:///C:/Users/timohomburg/git/cuneiformontology/signlist/> ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    void:triples 126 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_www.purl.org_graphemon_> a void:Linkset ;
+    rdfs:label "Linkset: cunei_dataset - graphemon:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.purl.org/graphemon#> ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    void:triples 17172 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: cunei_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    void:triples 5 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_www.wikidata.org_entity_> a void:Linkset ;
+    rdfs:label "Linkset: cunei_dataset - Wikidata Entities (wde:)"@en ;
+    void:linkPredicate <http://lemon-model.net/lemon#reference>,
+        <http://www.purl.org/graphemon#epoch>,
+        owl:sameAs ;
+    void:objectsTarget <http://www.wikidata.org/entity/> ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    void:triples 287,
+        1266,
+        3375 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_www.wikidata.org_wiki_> a void:Linkset ;
+    rdfs:label "Linkset: cunei_dataset - wiki"@en ;
+    void:linkPredicate <http://lemon-model.net/lemon#reference> ;
+    void:objectsTarget <https://www.wikidata.org/wiki/> ;
+    void:subjectsTarget <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    void:triples 2 .
+
+<https://situx.github.io/cuneiformontology/dc_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/dcam_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/dcat_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/dcmitype_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/dcterms_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/doap_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/foaf_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/geo_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/odrl_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/org_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/owl_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/prof_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/prov_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/qb_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/rdf_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/rdfs_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/schema_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/sh_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/skos_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    voaf:occurrences 10 .
+
+<https://situx.github.io/cuneiformontology/sosa_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/ssn_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/time_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/vann_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/vext_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/voaf_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/void_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/wgs_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/xml_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<https://situx.github.io/cuneiformontology/xsd_cunei_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in cunei_dataset" ;
+    voaf:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_cunei_dataset_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_cunei_dataset_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_cunei_dataset_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_cunei_dataset_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_cunei_dataset_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_cunei_dataset_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_cunei_dataset_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_cunei_dataset_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_cunei_dataset_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_cunei_dataset_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_cunei_dataset_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_cunei_dataset_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_cunei_dataset_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_cunei_dataset_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_cunei_dataset_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_cunei_dataset_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_cunei_dataset_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_cunei_dataset_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_cunei_dataset_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_cunei_dataset_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_cunei_dataset_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_cunei_dataset_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_cunei_dataset_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_cunei_dataset_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_cunei_dataset_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_cunei_dataset_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_cunei_dataset_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_cunei_dataset_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_cunei_dataset_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_cunei_dataset_occ .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 5 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_Epoch> a void:Dataset ;
+    rdfs:label "Class Partition: Epoch"@en ;
+    void:class <http://www.purl.org/cuneiform#Epoch> .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_Grapheme> a void:Dataset ;
+    rdfs:label "Class Partition: Grapheme"@en ;
+    void:class <http://www.purl.org/graphemon#Grapheme> ;
+    void:entities 1312 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeComposition> a void:Dataset ;
+    rdfs:label "Class Partition: GraphemeComposition"@en ;
+    void:class <http://www.purl.org/graphemon#GraphemeComposition> ;
+    void:entities 3153 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeList> a void:Dataset ;
+    rdfs:label "Class Partition: GraphemeList"@en ;
+    void:class <http://www.purl.org/graphemon#GraphemeList> ;
+    void:entities 1 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeReading> a void:Dataset ;
+    rdfs:label "Class Partition: GraphemeReading"@en ;
+    void:class <http://www.purl.org/graphemon#GraphemeReading> ;
+    void:entities 12036 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeSense> a void:Dataset ;
+    rdfs:label "Class Partition: GraphemeSense"@en ;
+    void:class <http://www.purl.org/graphemon#GraphemeSense> ;
+    void:entities 670 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_abzl> a void:Dataset ;
+    rdfs:label "Property Partition: abzl"@en ;
+    void:property <http://www.purl.org/graphemon#abzl> ;
+    void:triples 493 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "cunei_dataset TTL Distribution"@en ;
+    dcat:downloadURL "https://Research-Squirrel-Engineers.github.io/cuneiformontology//index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_epoch> a void:Dataset ;
+    rdfs:label "Property Partition: epoch"@en ;
+    void:property <http://www.purl.org/graphemon#epoch> ;
+    void:triples 3501 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_hasGraphemeReading> a void:Dataset ;
+    rdfs:label "Property Partition: hasGraphemeReading"@en ;
+    void:property <http://www.purl.org/graphemon#hasGraphemeReading> ;
+    void:triples 12046 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_hasPart> a void:Dataset ;
+    rdfs:label "Property Partition: hasPart"@en ;
+    void:property <http://www.purl.org/graphemon#hasPart> ;
+    void:triples 2715 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_hethzl> a void:Dataset ;
+    rdfs:label "Property Partition: hethzl"@en ;
+    void:property <http://www.purl.org/graphemon#hethzl> ;
+    void:triples 399 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_labat> a void:Dataset ;
+    rdfs:label "Property Partition: labat"@en ;
+    void:property <http://www.purl.org/graphemon#labat> ;
+    void:triples 450 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 19597 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_lak> a void:Dataset ;
+    rdfs:label "Property Partition: lak"@en ;
+    void:property <http://www.purl.org/graphemon#lak> ;
+    void:triples 13 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_member> a void:Dataset ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 1391 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_meszl> a void:Dataset ;
+    rdfs:label "Property Partition: meszl"@en ;
+    void:property <http://www.purl.org/graphemon#meszl> ;
+    void:triples 942 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_obo> a void:Dataset ;
+    rdfs:label "Property Partition: obo"@en ;
+    void:property <http://www.purl.org/graphemon#obo> ;
+    void:triples 451 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_readingValue> a void:Dataset ;
+    rdfs:label "Property Partition: readingValue"@en ;
+    void:property <http://www.purl.org/graphemon#readingValue> ;
+    void:triples 11058 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_reference> a void:Dataset ;
+    rdfs:label "Property Partition: reference"@en ;
+    void:property <http://lemon-model.net/lemon#reference> ;
+    void:triples 289 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_sameAs> a void:Dataset ;
+    rdfs:label "Property Partition: sameAs"@en ;
+    void:property owl:sameAs ;
+    void:triples 1266 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_sense> a void:Dataset ;
+    rdfs:label "Property Partition: sense"@en ;
+    void:property <http://lemon-model.net/lemon#sense> ;
+    void:triples 670 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_signName> a void:Dataset ;
+    rdfs:label "Property Partition: signName"@en ;
+    void:property <http://www.purl.org/graphemon#signName> ;
+    void:triples 1415 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_slha> a void:Dataset ;
+    rdfs:label "Property Partition: slha"@en ;
+    void:property <http://www.purl.org/graphemon#slha> ;
+    void:triples 1011 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 17200 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_unicodeCodepoint> a void:Dataset ;
+    rdfs:label "Property Partition: unicodeCodepoint"@en ;
+    void:property <http://www.purl.org/graphemon#unicodeCodepoint> ;
+    void:triples 1444 .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset_unicodeRepresentation> a void:Dataset ;
+    rdfs:label "Property Partition: unicodeRepresentation"@en ;
+    void:property <http://www.purl.org/graphemon#unicodeRepresentation> ;
+    void:triples 4525 .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_cunei_dataset_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_cunei_dataset_occ .
+
+<https://situx.github.io/cuneiformontology/cunei_dataset> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "cunei_dataset"@en ;
+    vext:averageLiteralLength 17 ;
+    vext:averageObjectIRILength 62 ;
+    vext:averagePropertyIRILength 38 ;
+    vext:averageSubjectIRILength 77 ;
+    vext:datatypes 0 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 72024 ;
+    vext:distinctLiterals 35576 ;
+    vext:distinctRDFNodes 107600 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-10-23T20:37:35"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "cunei_dataset"@en ;
+    vann:preferredNamespacePrefix "cunei"^^xsd:string ;
+    vann:preferredNamespaceUri "https://situx.github.io/cuneiformontology/"^^xsd:anyURI ;
+    void:classPartition <https://situx.github.io/cuneiformontology/cunei_dataset_Collection>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_Epoch>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_Grapheme>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeComposition>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeList>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeReading>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_GraphemeSense> ;
+    void:classes 7 ;
+    void:dataDump <https://Research-Squirrel-Engineers.github.io/cuneiformontology//index.ttl> ;
+    void:distinctObjects 53326 ;
+    void:distinctSubjects 18678 ;
+    void:entities 17159 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 20 ;
+    void:propertyPartition <https://situx.github.io/cuneiformontology/cunei_dataset_abzl>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_epoch>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_hasGraphemeReading>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_hasPart>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_hethzl>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_labat>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_label>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_lak>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_member>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_meszl>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_obo>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_readingValue>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_reference>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_sameAs>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_sense>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_signName>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_slha>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_type>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_unicodeCodepoint>,
+        <https://situx.github.io/cuneiformontology/cunei_dataset_unicodeRepresentation> ;
+    void:triples 115216 ;
+    void:uriSpace "https://situx.github.io/cuneiformontology/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <https://situx.github.io/cuneiformontology/cunei_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://Research-Squirrel-Engineers.github.io/cuneiformontology/> ;
+    foaf:homepage <https://Research-Squirrel-Engineers.github.io/cuneiformontology/> ;
+    foaf:page <https://Research-Squirrel-Engineers.github.io/cuneiformontology//index.html> .
+

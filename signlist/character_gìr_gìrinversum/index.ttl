@@ -1,0 +1,28 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: GÌR.GÌRinversum" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_didanu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_didanum>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_didnu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_didnum>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_pirig@pirig>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_tidanu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_tidanum>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_tidnim>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_tidnu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gìr_gìrinversum_reading_tidnum> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_gi3r>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gi3rinversum> ;
+    ns1:signName "GÌR.GÌRinversum" ;
+    ns1:slha "444n2" ;
+    ns1:unicodeCodepoint "U+1228E" ;
+    ns1:unicodeRepresentation "𒊎" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556295> .
+

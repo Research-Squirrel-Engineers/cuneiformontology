@@ -1,0 +1,38 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns2: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_zig_zik> a ns2:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ZIG/ZIK (NÍNDA×EŠ)" ;
+    ns1:sense <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_sense_hasz2___thigh> ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns2:abzl "140" ;
+    ns2:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_hasz2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_hesz2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_hisz2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_s_ib2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zaq4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zeb2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zib2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zib2_zib2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zig>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zig_zig>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_zik>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_ziq>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig_zik_reading_ziqi> ;
+    ns2:hasPart <https://situx.github.io/cuneiformontology/signlist/character_esz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zig>,
+        <https://situx.github.io/cuneiformontology/signlist/character_zik_ni2nda> ;
+    ns2:labat "190" ;
+    ns2:meszl "336" ;
+    ns2:obo "140" ;
+    ns2:signName "ZIG/ZIK (NÍNDA×EŠ)" ;
+    ns2:slha "190" ;
+    ns2:unicodeCodepoint "U+12368" ;
+    ns2:unicodeRepresentation "𒍨" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556723> .
+

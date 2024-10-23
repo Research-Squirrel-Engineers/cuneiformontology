@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_lu2_x_kad3__asz> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: LU2 x KAD3 + AŠ" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_lu2_x_kad3_asz_reading_lu2×_kad3_asz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lu2_x_kad3_asz_reading_zanabal2> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_kad3__asz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lu2> ;
+    ns1:signName "LU2 x KAD3 + AŠ" ;
+    ns1:unicodeCodepoint "U+12207" ;
+    ns1:unicodeRepresentation "𒈇" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556039> .
+

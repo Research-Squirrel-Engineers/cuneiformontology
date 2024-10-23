@@ -1,0 +1,23 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_szinig> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ŠINIG (GAD.NAGA)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "302" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_szinig_reading_szeneg>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szinig_reading_szinig> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_naga>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szinig_gad> ;
+    ns1:hethzl "85" ;
+    ns1:meszl "162" ;
+    ns1:signName "ŠINIG (GAD.NAGA)" ;
+    ns1:slha "093" ;
+    ns1:unicodeCodepoint "U+122D2" ;
+    ns1:unicodeRepresentation "𒋒" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556420> .
+

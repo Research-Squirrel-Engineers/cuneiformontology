@@ -1,0 +1,26 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: LAGAB×KÍD" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_bara8>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_lagab×tak4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_ninmusz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_para8>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_szara3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_szuru2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×kíd_reading_szurun2> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ki2d>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab> ;
+    ns1:meszl "759" ;
+    ns1:signName "LAGAB×KÍD" ;
+    ns1:slha "485" ;
+    ns1:unicodeCodepoint "U+121E3" ;
+    ns1:unicodeRepresentation "𒇣" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555968> .
+

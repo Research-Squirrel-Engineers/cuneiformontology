@@ -1,0 +1,21 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_szúszur> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ŠÚŠUR" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_szúszur_reading_asz&asz&asz_asz&asz&asz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szúszur_reading_kad8>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szúszur_reading_szuszur2> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_szu2szur> ;
+    ns1:meszl "649" ;
+    ns1:signName "ŠÚŠUR" ;
+    ns1:slha "365" ;
+    ns1:unicodeCodepoint "U+1203D" ;
+    ns1:unicodeRepresentation "𒀽" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555120> .
+

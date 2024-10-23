@@ -1,0 +1,31 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_idim> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: IDIM" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_ari2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_banda4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_dehi4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_esze3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_hanisz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_idim>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_iri8>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_kir5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_mid>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_nagbu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_rapiqu2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_sullat>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_szullat>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_tehi4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_idim_reading_uri4> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_idim> ;
+    ns1:signName "IDIM" ;
+    ns1:unicodeCodepoint "U+12142" ;
+    ns1:unicodeRepresentation "𒅂" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555633> .
+

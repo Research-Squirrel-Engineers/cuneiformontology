@@ -1,0 +1,24 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gá×_gír_su> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: GÁ× GÍR.SU" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gá×_gír_su_reading_egirsu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×_gír_su_reading_ga2×_gir2_su>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×_gír_su_reading_gagirsu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×_gír_su_reading_ŋaŋirsu> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ga2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gi2r>,
+        <https://situx.github.io/cuneiformontology/signlist/character_su> ;
+    ns1:meszl "391" ;
+    ns1:signName "GÁ× GÍR.SU" ;
+    ns1:slha "236" ;
+    ns1:unicodeCodepoint "U+120D0" ;
+    ns1:unicodeRepresentation "𒃐" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555404> .
+

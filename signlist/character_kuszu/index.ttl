@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_kuszu> a ns1:GraphemeComposition,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character Composition: KUŠU (U.GÌR/PIRIG)",
+        "Character Composition: kuszu" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "347" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_kuszu_reading_kuszu> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_gi3r>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kuszu_u>,
+        <https://situx.github.io/cuneiformontology/signlist/character_pirig> ;
+    ns1:meszl "710" ;
+    ns1:signName "KUŠU (U.GÌR/PIRIG)" ;
+    ns1:slha "448" ;
+    ns1:unicodeCodepoint "U+1230B 𒌋 & U+1210A 𒄊 / U+1228A 𒊊" ;
+    ns1:unicodeRepresentation "U & GIR3/PIRIG",
+        "𒌋𒊊" .
+

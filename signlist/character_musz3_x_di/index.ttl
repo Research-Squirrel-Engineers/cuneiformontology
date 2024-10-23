@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_musz3_x_di> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: MUŠ3 x DI" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_musz3_x_di_reading_musz3×di> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_di>,
+        <https://situx.github.io/cuneiformontology/signlist/character_musz3> ;
+    ns1:signName "MUŠ3 x DI" ;
+    ns1:unicodeCodepoint "U+1223C" ;
+    ns1:unicodeRepresentation "𒈼" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556141> .
+

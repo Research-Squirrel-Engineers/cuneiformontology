@@ -1,0 +1,21 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_sag×nun> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: SAG×NUN" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_sag×nun_reading_dilib4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_sag×nun_reading_sag×nun> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_nun>,
+        <https://situx.github.io/cuneiformontology/signlist/character_sag> ;
+    ns1:meszl "185" ;
+    ns1:signName "SAG×NUN" ;
+    ns1:slha "115n" ;
+    ns1:unicodeCodepoint "U+1229E" ;
+    ns1:unicodeRepresentation "𒊞" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556323> .
+

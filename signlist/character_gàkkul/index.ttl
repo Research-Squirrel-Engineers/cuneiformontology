@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gàkkul> a ns1:GraphemeComposition,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character Composition: GÀKKUL (U.DIM)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "338" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gàkkul_reading_gakkul3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gàkkul_reading_gakkul3_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gàkkul_reading_kakkul3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gàkkul_reading_mun6>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gàkkul_reading_u_dim> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_dim>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ga3kkul_u> ;
+    ns1:labat "415.1" ;
+    ns1:meszl "667" ;
+    ns1:obo "338" ;
+    ns1:signName "GÀKKUL (U.DIM)" ;
+    ns1:slha "415a" ;
+    ns1:unicodeCodepoint "U+1230B & U+12074" ;
+    ns1:unicodeRepresentation "𒌋𒁴" .
+

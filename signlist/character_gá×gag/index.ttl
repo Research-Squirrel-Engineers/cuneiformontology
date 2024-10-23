@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gá×gag> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: GÁ×GAG" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gá×gag_reading_am4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×gag_reading_ama4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×gag_reading_ga2×kak> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ga2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gag> ;
+    ns1:meszl "407" ;
+    ns1:signName "GÁ×GAG" ;
+    ns1:slha "251" ;
+    ns1:unicodeCodepoint "U+120D8" ;
+    ns1:unicodeRepresentation "𒃘" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555419> .
+

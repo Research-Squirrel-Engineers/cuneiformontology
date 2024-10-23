@@ -1,0 +1,24 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_kàn> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: KÀN (SAG×MI)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_kàn_reading_kan3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kàn_reading_kan5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kàn_reading_kana3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kàn_reading_kana5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kàn_reading_sag×mi> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ka3n_sag>,
+        <https://situx.github.io/cuneiformontology/signlist/character_mi> ;
+    ns1:meszl "195" ;
+    ns1:signName "KÀN (SAG×MI)" ;
+    ns1:slha "119" ;
+    ns1:unicodeCodepoint "U+1229D" ;
+    ns1:unicodeRepresentation "𒊝" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556322> .
+

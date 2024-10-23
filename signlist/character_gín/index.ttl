@@ -1,0 +1,63 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gín> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: GÍN",
+        "Character: GÍN (TÙN)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "219b, 219a",
+        "TÙN:401a, GÍN:401b" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_aga3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_aŋa3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_du5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_du5_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_du5⁺>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dug5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dun3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dun3@g>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dun3_tun3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dun3_tun3_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_dun3⁺>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_ge11>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gi11>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gig4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gim2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gin2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gin2_gin2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gin2_k>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_gina2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_giŋ4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_pusz4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_su18>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_sug5>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_t_u>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_t_u_t_u>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_tu18>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_tug8>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_tun3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_tun3⁺>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gín_reading_tuna3> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_gi2n>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gi2n_tu3n> ;
+    ns1:hethzl "223; 209.2",
+        "96" ;
+    ns1:labat "595" ;
+    ns1:meszl "556",
+        "836" ;
+    ns1:obo "401.1",
+        "401.2" ;
+    ns1:signName "GÍN",
+        "GÍN (TÙN)" ;
+    ns1:slha "347",
+        "595" ;
+    ns1:unicodeCodepoint "U+12085",
+        "U+12086" ;
+    ns1:unicodeRepresentation "𒂅",
+        "𒂆" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555262>,
+        <http://www.wikidata.org/entity/Q87555264> .
+

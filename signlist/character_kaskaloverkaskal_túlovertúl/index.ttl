@@ -1,0 +1,21 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_kaskaloverkaskal_túlovertúl> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: KASKALoverKASKAL.TÚLoverTÚL" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_kaskaloverkaskal_túlovertúl_reading_kaskal_lagab×u_&_kaskal_lagab×u>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kaskaloverkaskal_túlovertúl_reading_szubtu7>,
+        <https://situx.github.io/cuneiformontology/signlist/character_kaskaloverkaskal_túlovertúl_reading_szubtum7> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_kaskal>,
+        <https://situx.github.io/cuneiformontology/signlist/character_tu2l> ;
+    ns1:signName "KASKALoverKASKAL.TÚLoverTÚL" ;
+    ns1:slha "166een" ;
+    ns1:unicodeCodepoint "U+1219E" ;
+    ns1:unicodeRepresentation "𒆞" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555814> .
+

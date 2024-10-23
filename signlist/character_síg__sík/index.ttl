@@ -1,0 +1,33 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix ns2: <http://lemon-model.net/lemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_síg__sík> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: SÍG / SÍK" ;
+    ns2:sense <https://situx.github.io/cuneiformontology/signlist/character_síg__sík_sense_wool> ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "395" ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_seg2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_sig2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_sik2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_siki>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_szek2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_szeq2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_szik2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_síg_sík_reading_sziq2> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_si2g>,
+        <https://situx.github.io/cuneiformontology/signlist/character_si2k> ;
+    ns1:hethzl "65" ;
+    ns1:labat "539" ;
+    ns1:meszl "816" ;
+    ns1:obo "395" ;
+    ns1:signName "SÍG / SÍK" ;
+    ns1:slha "539" ;
+    ns1:unicodeCodepoint "U+122E0" ;
+    ns1:unicodeRepresentation "𒋠" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556447> .
+

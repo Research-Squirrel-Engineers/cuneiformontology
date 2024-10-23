@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_szíta> a ns1:GraphemeComposition,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character Composition: ŠÍTA (GÁ.GIŠ)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:abzl "460" ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_gisz>,
+        <https://situx.github.io/cuneiformontology/signlist/character_szi2ta_ga2> ;
+    ns1:meszl "434" ;
+    ns1:signName "ŠÍTA (GÁ.GIŠ)" ;
+    ns1:slha "233_40; 230x" ;
+    ns1:unicodeCodepoint "U+122D6 & U+12111" ;
+    ns1:unicodeRepresentation "𒋖𒄑" .
+

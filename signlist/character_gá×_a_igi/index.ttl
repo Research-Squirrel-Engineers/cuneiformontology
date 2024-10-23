@@ -1,0 +1,23 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_gá×_a_igi> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: GÁ× A.IGI" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_gá×_a_igi_reading_ga2×_a_igi>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×_a_igi_reading_pi7>,
+        <https://situx.github.io/cuneiformontology/signlist/character_gá×_a_igi_reading_piru> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_a>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ga2>,
+        <https://situx.github.io/cuneiformontology/signlist/character_igi> ;
+    ns1:meszl "429" ;
+    ns1:signName "GÁ× A.IGI" ;
+    ns1:slha "274" ;
+    ns1:unicodeCodepoint "U+120BA" ;
+    ns1:unicodeRepresentation "𒂺" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555360> .
+

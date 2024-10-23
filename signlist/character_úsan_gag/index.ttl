@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_úsan_gag> a ns1:GraphemeComposition,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character Composition: ÚSAN.GAG" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_gag>,
+        <https://situx.github.io/cuneiformontology/signlist/character_u2san> ;
+    ns1:meszl "510" ;
+    ns1:signName "ÚSAN.GAG" ;
+    ns1:slha "327x" ;
+    ns1:unicodeCodepoint "U+1211D & U+12195" ;
+    ns1:unicodeRepresentation "𒄝𒆕" .
+

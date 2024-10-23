@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_masz_man> a ns1:GraphemeComposition,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character Composition: MAŠ.MAN" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_man>,
+        <https://situx.github.io/cuneiformontology/signlist/character_masz> ;
+    ns1:meszl "126" ;
+    ns1:signName "MAŠ.MAN" ;
+    ns1:slha "074+471" ;
+    ns1:unicodeCodepoint "U+12226 & U+12399" ;
+    ns1:unicodeRepresentation "𒈦𒎙" .
+

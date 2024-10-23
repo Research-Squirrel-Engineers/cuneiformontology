@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_al×ki> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: AL×KI" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_al×ki_reading_al×ki>,
+        <https://situx.github.io/cuneiformontology/signlist/character_al×ki_reading_bal4>,
+        <https://situx.github.io/cuneiformontology/signlist/character_al×ki_reading_dubal2> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_al>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ki> ;
+    ns1:meszl "481" ;
+    ns1:signName "AL×KI" ;
+    ns1:slha "303" ;
+    ns1:unicodeCodepoint "U+12026" ;
+    ns1:unicodeRepresentation "𒀦" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555074> .
+

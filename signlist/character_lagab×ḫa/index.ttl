@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_lagab×ḫa> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: LAGAB×ḪA" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_lagab×ḫa_reading_elamkusz3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×ḫa_reading_ellamkusz3>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab×ḫa_reading_lagab×ha> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_ha>,
+        <https://situx.github.io/cuneiformontology/signlist/character_lagab> ;
+    ns1:meszl "800" ;
+    ns1:signName "LAGAB×ḪA" ;
+    ns1:slha "527" ;
+    ns1:unicodeCodepoint "U+121C8" ;
+    ns1:unicodeRepresentation "𒇈" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555913> .
+

@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_alad> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ALAD (KAL×BAD)" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_alad_reading_alad>,
+        <https://situx.github.io/cuneiformontology/signlist/character_alad_reading_kal×bad> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_alad_kal>,
+        <https://situx.github.io/cuneiformontology/signlist/character_bad> ;
+    ns1:hethzl "(40)" ;
+    ns1:meszl "497" ;
+    ns1:signName "ALAD (KAL×BAD)" ;
+    ns1:slha "323" ;
+    ns1:unicodeCodepoint "U+12198" ;
+    ns1:unicodeRepresentation "𒆘" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87555802> .
+

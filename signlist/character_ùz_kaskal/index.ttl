@@ -1,0 +1,23 @@
+@prefix ns1: <http://www.purl.org/graphemon#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://situx.github.io/cuneiformontology/signlist/character_ùz_kaskal> a ns1:Grapheme,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Character: ÙZ.KASKAL" ;
+    void:inDataset <https://situx.github.io/cuneiformontology/cunei_dataset> ;
+    ns1:hasGraphemeReading <https://situx.github.io/cuneiformontology/signlist/character_ùz_kaskal_reading_gablumₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ùz_kaskal_reading_meₓ>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ùz_kaskal_reading_qablu>,
+        <https://situx.github.io/cuneiformontology/signlist/character_ùz_kaskal_reading_uz3×kaskal> ;
+    ns1:hasPart <https://situx.github.io/cuneiformontology/signlist/character_kaskal>,
+        <https://situx.github.io/cuneiformontology/signlist/character_u3z> ;
+    ns1:meszl "204" ;
+    ns1:signName "ÙZ.KASKAL" ;
+    ns1:slha "122c" ;
+    ns1:unicodeCodepoint "U+1235B" ;
+    ns1:unicodeRepresentation "𒍛" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87556695> .
+
