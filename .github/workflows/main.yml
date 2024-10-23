@@ -13,7 +13,7 @@ jobs:
     name: Ontdoc I      
     with: 
           rdffilepath: signlist/signlist.ttl
-          version: v018
+          version: v017
           docpath: docs
           prefixns: https://situx.github.io/cuneiformontology/
           prefixnsshort: cunei
@@ -32,7 +32,7 @@ jobs:
       name: Ontdoc II      
       with: 
             rdffilepath: merged.ttl
-            version: v018
+            version: v017
             docpath: docs
             prefixns: https://situx.github.io/cuneiformontology/
             prefixnsshort: cunei
